@@ -218,10 +218,3 @@ const addProperty = function(property) {
   })
 }
  exports.addProperty = addProperty;
-
-// const addProperty = function(property) {
-//   const propertyId = Object.keys(properties).length + 1;
-//   property.id = propertyId;
-//   properties[propertyId] = property;
-//   return Promise.resolve(property);
-// }
